@@ -1,5 +1,6 @@
 import { Phone, MessageCircle } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import logo from "@/assets/logo.jpg";
 
 const HeroSection = () => {
   const whatsappLink = "https://wa.me/917248400341?text=Hello%2C%20I%20want%20to%20enquire%20about%20courses%20at%20LBS%20Training%20Institute%20Kotdwar.";
@@ -17,6 +18,7 @@ const HeroSection = () => {
         <p className="text-primary-foreground/80 text-sm md:text-base tracking-widest uppercase mb-4">
           📍 Kotdwar, Uttarakhand
         </p>
+        <img src={logo} alt="LBS Training Institute Logo" className="w-20 h-20 rounded-full mx-auto mb-4 border-2 border-primary-foreground/30 shadow-lg" />
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-3 leading-tight">
           Lal Bahadur Shastri Training Institute
         </h1>

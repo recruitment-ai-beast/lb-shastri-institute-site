@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const navLinks = [
   { href: "#courses", label: "Courses" },
@@ -16,7 +17,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-sm border-b border-border shadow-sm">
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
-        <a href="#" className="font-bold text-foreground text-sm md:text-base">
+        <a href="#" className="flex items-center gap-2 font-bold text-foreground text-sm md:text-base">
+          <img src={logo} alt="LBS Training Institute Logo" className="w-9 h-9 rounded-full" />
           LBS Training Institute
         </a>
 
